@@ -1,0 +1,70 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.bandeJaune{
+    background-color:orange;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.titre{
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: space-around;
+    word-spacing: 3px;
+
+}
+.lien{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    word-spacing: 3px;
+
+}
+.lien2{
+    color: slategray;
+    text-decoration: none;
+    font-family: sans-serif;
+    word-spacing: 3px;
+
+}
+
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+.boite{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    padding-left: 200px;
+}
+.boiteBurger{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+
+
+.bouttonVert{
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.bouttonJaune{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+
+}
